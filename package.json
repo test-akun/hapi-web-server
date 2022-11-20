@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon server.js",
     "start": "node server.js"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/test-akun/hapi-web-server#readme",
   "dependencies": {
     "@hapi/hapi": "^21.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
